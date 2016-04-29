@@ -20,5 +20,41 @@
 		</script>
 	</head>
 	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="${pageContext.request.contextPath}">
+								<img class="img-circle" alt="Brand" src="resources/img/logo/logo-frogen-black.png" height="45px" width="45px" style="margin-top: -12px;" >
+							</a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="ventas.html">Ventas</a>
+								</li>
+								<li>
+									<a href="inventario.html">Inventario</a>
+								</li>
+								<li>
+									<a href="reportes.html">Reportes</a>
+								</li>
+							</ul>
+
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<button onclick="#" type="button" class="btn btn-default navbar-btn" style="margin-right: 15px">Sign up</button>
+								</li>
+								<li>
+									<button type="button" class="btn btn-primary navbar-btn" style="margin-right: 15px">Log in</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+		</div>
 	</body>
 </htmL>
