@@ -31,14 +31,32 @@
 							</a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a href="${pageContext.request.contextPath}/ventas">Ventas</a>
+								</li>
+								<li>
+									<a href="${pageContext.request.contextPath}/inventario">Inventario</a>
+								</li>
+								<li>
+									<a href="${pageContext.request.contextPath}/reportes">Reportes</a>
+								</li>
+							</ul>
+
 							<ul class="nav navbar-nav navbar-right">
 								<li>
-									<button onclick="location.href='${pageContext.request.contextPath}/login'" type="button" class="btn btn-primary navbar-btn" style="margin-right: 15px">Log in</button>
+									<button onclick="#" type="button" class="btn btn-warning navbar-btn" style="margin-right: 15px">
+										Alertas <span class="badge">4</span>
+									</button>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</nav>
+			</div>
+
+			<div class="row contenedor" >
+				Ventas
 			</div>
 
 		</div>
