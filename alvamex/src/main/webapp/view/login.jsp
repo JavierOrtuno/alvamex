@@ -4,21 +4,6 @@
 <!doctype html>
 <htmL>
 	<head>
-		<title>Alvamex</title>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap.min.css" /> <!-- Bootstrap style -->
-		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/custom.css" />
-
-		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
-
-		<script type="text/javascript">
-			$(document).ready(function() {
-				// alert("JQuery cargado");
-			});
-		</script>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -35,7 +20,7 @@
 						</div>
 					</div>
 				</nav>
-			</div>		
+			</div>
 
 			<div class="row contenedor">
 				<div class="col-sm-2 col-md-4"></div>

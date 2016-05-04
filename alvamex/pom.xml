@@ -19,6 +19,7 @@
         <javax.mail.version>1.5.0-b01</javax.mail.version>
         <jstl.version>1.2</jstl.version>
         <junit.version>3.8.1</junit.version>
+        <sitemesh.version>3.0.1</sitemesh.version>
     </properties>
 
 	<dependencies>
@@ -64,6 +65,11 @@
     		<groupId>javax.mail</groupId>
     		<artifactId>mail</artifactId>
     		<version>${javax.mail.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.sitemesh</groupId>
+			<artifactId>sitemesh</artifactId>
+			<version>${sitemesh.version}</version>
 		</dependency>
     </dependencies>
 

@@ -2,4 +2,20 @@
 
 	.contenedor {
 		margin-top: 100px;
+		min-height: 500px;
 	}
+
+	.footer {
+		background-color: #D2D2D1;
+    	clear: both;
+    	position: relative;
+    	z-index: 10;
+    	height: 70px;
+	}
+
+	.footer img {
+		margin-top: 10px;
+		width: 50px;
+		height: 50px;
+	}
+
