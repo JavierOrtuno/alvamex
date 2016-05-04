@@ -26,12 +26,7 @@
 				</nav>
 			</div>
 
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+			<div class="row contenedor"></div>
 		</div>
 	</body>
 </htmL>
