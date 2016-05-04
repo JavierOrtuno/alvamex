@@ -20,7 +20,7 @@
 	</body>
 	<footer>
 		<div class="container-fluid">
-			<div class="row footer">
+			<div class="row footer visible-md">
 				<div class="col-md-1"></div>
 				<div class="col-md-3">
 					<img class="img-circle" src="${pageContext.request.contextPath}/resources/img/social/facebook.png" alt="Facebook" />
@@ -29,13 +29,27 @@
 				<div class="col-md-4 text-center">
 					<h6>
 						Pinturas Martinez S.A. de C.V.
-						
 					</h6>
 				</div>
 				<div class="col-md-3 text-right">
 					<img class="img-circle" src="${pageContext.request.contextPath}/resources/img/logo/logo-frogen-black.png" alt="Powered by Frogensource" />
 				</div>
 				<div class="col-md-1"></div>
+			</div>
+
+			<div class="row footer visible-xs visible-sm">
+				<div class="col-xs-4 col-sm-4">
+					<img class="img-circle" src="${pageContext.request.contextPath}/resources/img/social/facebook.png" alt="Facebook" />
+					<img class="img-circle" src="${pageContext.request.contextPath}/resources/img/social/twitter.png" alt="Twitter" />
+				</div>
+				<div class="col-xs-4 col-sm-4 text-center">
+					<h6>
+						Pinturas Martinez S.A. de C.V.
+					</h6>
+				</div>
+				<div class="col-xs-4 col-sm-4 text-right">
+					<img class="img-circle" src="${pageContext.request.contextPath}/resources/img/logo/logo-frogen-black.png" alt="Powered by Frogensource" />
+				</div>
 			</div>
 		</div>
 	</footer>
